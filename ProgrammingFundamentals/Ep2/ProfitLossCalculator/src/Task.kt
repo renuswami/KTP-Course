@@ -2,7 +2,7 @@ import com.faangx.ktp.basics.ProfitLossCalculatorMiniApp
 import kotlin.math.roundToInt
 
 fun getSp1(cp: Int, pl: Int): Int {
-    TODO()
+    return cp + pl
 }
 fun getSp2(cp: Int, absPL: Int): Int {
     return cp + absPL
@@ -10,13 +10,16 @@ fun getSp2(cp: Int, absPL: Int): Int {
 
 fun getCp1(sp: Int, pl: Int): Int {
     return sp * 100 / (100 + pl)
+
 }
 fun getCp2(sp: Int, absPL: Int): Int {
     return sp - absPL
 }
 
 fun getPl1(cp: Int, sp: Int): Int {
-    return (sp - cp) / cp * 100
+    val pl = sp - cp
+    return (pl * 100) / cp
+
 }
 fun getPl2(cp: Int, absPL: Int): Int {
     return absPL / cp * 100
