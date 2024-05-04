@@ -14,7 +14,7 @@ files:
         selected: false
         status: Solved
         is_visible: false
-      - offset: 431
+      - offset: 386
         length: 0
         placeholder_text: TODO()
         initial_state:
