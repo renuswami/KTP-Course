@@ -9,19 +9,14 @@ fun printFactorsOf(num: Int) {
 }
 
 fun isPrime(num: Int): Boolean {
-    var flag = false
+    var noOfFactor = 0
 
-    if(num == 0 || num ==1){
-        flag = true
-    }else{
-        for(i in 2 .. num/2){
-
-            if (num % i == 0){
-                flag = true
-            }
+        for (i in 1..num){
+            if(num % i == 0){
+                noOfFactor += noOfFactor
+             }
         }
-    }
-    return !flag
+    return noOfFactor == 2
 }
 
 fun main() {
