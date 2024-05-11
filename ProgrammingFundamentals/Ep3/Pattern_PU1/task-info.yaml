@@ -13,6 +13,7 @@ files:
         encrypted_possible_answer: Lisg3H3V9UndP51N+Ias7+LMvw04xEWPEhoMWLUr6+xw7IYb4zJDbdLzgGc+jBZBsYyA13AobF4CZWPCKZS4o2EVooGgOt6APE+Ef+Z9BAkXqeX25lOjp03kMm1nLMm6B1Tm+i+XaeIhsUil4CUj6cV1uVj02HTtpD97gqyy3joTLNjw5XCgmDI8CFGNUpgU
         selected: false
         status: Unchecked
+        is_visible: false
     encrypted_text: 7MBEVo9g9k8GnP4uM05YruKfNB9kTwbh8ExRFzUgJTLgVgCNz+SFL+cXgkRajLPlF3l9g+NDjatRSlQl8Uk+pKS9VI/O10SHaL9BXV5RMFfLkwNS4W9FfGZPaji/rpcQDYr98rRyLh6iGvBNP832qrUeY9Um6YLfzBIwFTLt0fxXzfBR83lf35FNTVY3ueUwBqIKFkj6dfj5YIZ5FhET2daolVQhPiRtuj96qGk1BdY=
     learner_created: false
   - name: test/Tests.kt
