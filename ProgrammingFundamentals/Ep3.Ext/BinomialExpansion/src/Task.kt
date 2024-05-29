@@ -1,42 +1,21 @@
 fun printBinomialExpansion(n: Int) {
-    if (n == 0) {
-        println("1") // Special case for n = 0
-        return
-    }
+    repeat(n + 1) { i ->
+        val coefficient = combinationsOf(n, i)
+        val PowA = n - i
+        val PowB = i
 
-    if (n == 1) {
-        println("a + b") // Special case for n = 1
-        return
-    }
+        if (coefficient > 1) print("$coefficient")
 
-    for (i in 0..n) {
-        val coeff = combinationsOf(n, i)
-        val powerOfA = n - i
-        val powerOfB = i
-
-        if (coeff != 1) print("$coeff")
-
-        if (powerOfA > 0) {
-            if (coeff > 1) {
-                if (powerOfA == 1) print("a") else print("a^$powerOfA")
-            } else {
-                print("a")
-            }
+        if (PowA > 0) {
+            print("a")
+            if (PowA > 1) print("^$PowA")
         }
-
-        if (powerOfA > 0 && powerOfB > 0) print("*")
-
-        if (powerOfB > 0) {
-            if (coeff > 1) {
-                if (powerOfB == 1) print("b") else print("b^$powerOfB")
-            } else {
-                print("b")
-            }
+        if (PowB > 0) {
+            print("b")
+            if (PowB > 1) print("^$PowB")
         }
-
         if (i < n) print(" + ")
     }
-    println()
 }
 
 fun factorialOf(x: Int): Int {
