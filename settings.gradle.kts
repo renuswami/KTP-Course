@@ -1,4 +1,4 @@
-rootProject.name = "KtCourseCreator"
+rootProject.name = "KTP-Course"
 
 pluginManagement {
     repositories {

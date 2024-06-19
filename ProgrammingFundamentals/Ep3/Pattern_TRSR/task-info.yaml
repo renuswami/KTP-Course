@@ -3,25 +3,21 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 89
-        length: 168
+      - offset: 99
+        length: 6
         placeholder_text: TODO()
         initial_state:
           length: 6
-          offset: 89
+          offset: 99
         initialized_from_dependency: false
         encrypted_possible_answer: qTmjfckzpEt9QELTstfvCXL7zi9wow+kmsA9BoqepQYpVsG+RLJaWt0UBvQtF/ntzFPrJdAll0ZRQsuRk6MeRZFVsU/e4QQRRUW+gmXc2Q+/LGDmLIm0mKmNZrrj3stOcpyrZI9w8ee2KHvkuTgGc3ntPBzKMrOsDowyg6Nawrg=
         selected: false
-        status: Solved
-        is_visible: false
-    encrypted_text: 7MBEVo9g9k8GnP4uM05YruKfNB9kTwbh8ExRFzUgJTLgVgCNz+SFL+cXgkRajLPlF3l9g+NDjatRSlQl8Uk+pKS9VI/O10SHaL9BXV5RMFc6ichjZGUTJv631KENUMduuEbZ4FxNinOg/9ixG75pwpRV6fom9hqoHtYMiRzIlTWhrG3rMyYa8VGDiPiKm2lWMAMCdKPELFrXqAVT6dQFQQ==
+        status: Unchecked
+    encrypted_text: 7MBEVo9g9k8GnP4uM05YruKfNB9kTwbh8ExRFzUgJTIEwwV+QUncgPvZBrLAhb4kuNaL3uUqJF+sCYr4XkLUXvf60ddqF7u9RK1HUYamfW4Ft6jNGgtZAPvumuvVNSVRQLXpPUkY5KCBOLujQ8q68Km6hlkxfQgtZtOKQCZ4x/dCZe/lpsU5ZdtrcCCdG1vQD5sHzNqvV3FoOIeuQCDbnGDGExfgs6rUeFI2PDgAzabFmNXw68vOWErGKsW8wk8P
     learner_created: false
   - name: test/Tests.kt
     visible: false
-    encrypted_text: 7MBEVo9g9k8GnP4uM05Yrm1rk5WH4fGOcCXXPe5YsgW2r0DXsEW3arJXB8SG2QEpCqEnWxugkh3QsyMtdD45naaxNwYT+YRtVsLgxd/KYHzq9KBIpbEK2rZJ++kNXZiKGk7lzCt7aE0sVpG/NttutgedDFLbw9XJ2X7uSP66QQ4Gn0u1xKZ9YPRG4lC6k+wivJypG45tWaN/f925NHEYQ3dIxDKZmXbbC3HpcWnGWMtvKKymq2a1CQq9buAnA/SHBE3FxImfTAOWE8xd3OjL/ULaXOa3Dlu+dU1oaoFcCKO6yfrzrxG5pO9waSTv/SpDQI8vOKnbGypYMUDJ+hY11ew3oOErCU+uqCz/YskB6mYAO1XkIypzHciyEJamEArFP2E8PsMerBfXfroeLrYiw84GGe4HDekhzoZ9o/KkUlVgJh7DzQUq6zLk0pbZoMLNogBJPuxQGtt6qVxOTAmh857A1Y8tHZ2PygDxt15rQIUWa0PvLqM4mqnusWCa/tBrZnMkVRpyZJtEMLEfLju6yHohZwGV6+lmYJ/FHvlRZ9Rjr3im5a0BSz8d7ZW6bQlCojz3Kzz0cW7qpe/ipEUeINM/54syX/a/Cwut3l9sLVfMU8unsABAheXFYrIBa5k0u5eCGbKU2QJpblQGzZ4BvGUPnXtyhcYMyEwI1oc70Iv37LkLKqvspo/I7DnbWM2ELGaY3QyN5xaABdXJfsVFSVB3oz4amN7yKFTnBmClH0KPOCLDu8HJE7RW9ZilLgTIphUl1cD+IXTUO1DNT3f2MImgCDgJ1Yp4h7F7Ehearybz3MJ+reyQ1GPU2JdREEq+ThGINJMALfjWaWZ3AHdU2cNcL5wprslBzykdkh1Z60ShLnRHTrnz7RJQTixUmTQlKaw2UoAH8bVg5bYcYRHqU0mhh8hDUGlm5QV0BxsV3fFDal3Rjh/BEp0I1M/F1CUzebNQbaO+4dQ4mHkm9DwQjhBXTbv0PzbbdgNJnbY7gpg9iUPPqQCQtFrOQecsi0s0SwBtCreShwKUBq9Yr9LBsPqH6wSFWtI6PNGtHO0xiG2DCxLgi8uAzs2H/nwMPB7EHdgOdntYTtMgm2HEztun1PSHIElxcdseljz4GHSgKnVZBiLQYo1OYkxW+gxP7Kil
+    encrypted_text: 7MBEVo9g9k8GnP4uM05YrmKAZosRfA/N976BQJc8V9y0X5LCwYHi1XbT+nLncL2/OjZYFCmsH+3wraeMLXwevzCPJ5lUYOE16nI4Tjj4aBClMkda9cr/CqrI0tfQtb2gSpH9xKhZ8bPQxh6yqImp+PkY78HmoLFuEDJGszGTLJ0v0KGAZq1kiVRR+lzjZkgMwyLge2454SekZf48Gi5X2mkpAQ/A9g7vnyJwNyqX0lvVtioHtFd9W3NFpZMqiVFM8ysvpV8T03MbKUJP9qQrME8IJ6SkyMU2dM5gqr4CaMOMgVZrM7m66eL7hoHeSsWORbWFUIU7bMT1n9AdgtqURI9d46HDLfJLBdbEC+JrB4iTmxWZDdm2DJldukpniEVHG3n/rrY14HPYxg0yJOggzvkzk1K5taVl4gn+LLHpd7q/ll6mFqi4AN/jkovBz+3dMxSuOYRx2lS8e5c2D6g8afSgWBVtnCI3U57GI5H5b9yhVdnbmRs5lEgD2rFv+YBwHbtY/tFmycFMMowA8AIFfT4veoHk7HsWbhaeK1H6kuLKX+JEwrGgxNLrd9aMk6ZmXHGdPML40TecOkwReeGBuyvggbBPN69PnE1ymRJtZ7PkZNJ8cHiACge8YoRz5lMaosnWdJp9XIHQbJwvZrpWuFRb3rHWgdznUJzYfln8SmeBUu/84bL5wEJr/yDU/JbanRixLgFLG5XkEbAbRDiqtKdkFjRinIZBz0rf/ZfI1tZ0Vj2/HkAy3RW9wbppywHv
     learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: "Sat, 11 May 2024 17:16:02 UTC"
+status: Unchecked
 record: -1

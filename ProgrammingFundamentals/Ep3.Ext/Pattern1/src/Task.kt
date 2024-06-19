@@ -1,18 +1,9 @@
-import com.faangx.ktp.patterns.single.PatternMiniApp
+import com.faangx.ktp.patterns.single.PatternLinesAndTwoCharsBasedMiniApp
 
 fun printPattern(lines: Int, char1: Char, char2: Char) {
-    repeat(lines){i ->
-        repeat(lines){j ->
-            if (i == j){
-                print(char1)
-            }else{
-                print(char2)
-            }
-        }
-        println()
-    }
+    TODO()
 }
 
 fun main() {
-    PatternMiniApp("P1", ::printPattern)
+    PatternLinesAndTwoCharsBasedMiniApp("P1", ::printPattern)
 }
